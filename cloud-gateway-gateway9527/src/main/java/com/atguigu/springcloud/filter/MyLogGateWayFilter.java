@@ -12,7 +12,7 @@ import reactor.core.publisher.Mono;
 
 import java.util.Date;
 
-@Component
+//@Component
 @Slf4j
 public class MyLogGateWayFilter implements GlobalFilter, Ordered {
     /**

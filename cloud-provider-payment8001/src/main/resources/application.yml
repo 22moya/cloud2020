@@ -11,7 +11,6 @@ spring:
     url: jdbc:mysql://localhost:3306/db2019?useUnicode=true&characterEncoding=utf-8&useSSL=false
     username: root
     password: root
-
 eureka:
   client:
     #表示是否将自己注册进EurekaServer默认为true。
@@ -33,5 +32,4 @@ eureka:
 mybatis:
   mapperLocations: classpath:mapper/*.xml
   type-aliases-package: com.atguigu.springcloud.entities    # 所有Entity别名类所在包
-
 
