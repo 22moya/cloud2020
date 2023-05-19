@@ -64,6 +64,9 @@ public class OrderController {
 
     }
 
-
+    @GetMapping("/consumer/payment/zipkin")//客户端都是发get请求所以都是getMapping
+    public String paymentZipkin(){
+       return restTemplate.getForObject(PAYMENT_URL+"/payment/zipkin",String.class);
+    }
     }
 
